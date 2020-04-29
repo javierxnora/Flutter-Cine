@@ -55,6 +55,7 @@ class HomePage extends StatelessWidget {
       width: double.infinity,
       child: Swiper(
         layout: SwiperLayout.STACK,
+        autoplay: true,
         itemWidth: 300,
         itemBuilder: (BuildContext context, int index) {
           return ClipRRect(
